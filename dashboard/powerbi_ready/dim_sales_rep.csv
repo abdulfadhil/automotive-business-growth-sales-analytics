@@ -1,0 +1,21 @@
+sales_rep_id,sales_rep_name,region,team
+SR01,Sales Rep 01,East,Regional
+SR02,Sales Rep 02,West,Regional
+SR03,Sales Rep 03,South,Growth
+SR04,Sales Rep 04,South,Regional
+SR05,Sales Rep 05,North,Regional
+SR06,Sales Rep 06,Central,Growth
+SR07,Sales Rep 07,West,Regional
+SR08,Sales Rep 08,North,Regional
+SR09,Sales Rep 09,Central,Regional
+SR10,Sales Rep 10,West,Enterprise
+SR11,Sales Rep 11,East,Growth
+SR12,Sales Rep 12,West,Growth
+SR13,Sales Rep 13,South,Growth
+SR14,Sales Rep 14,South,Enterprise
+SR15,Sales Rep 15,East,Enterprise
+SR16,Sales Rep 16,North,Growth
+SR17,Sales Rep 17,Central,Enterprise
+SR18,Sales Rep 18,West,Growth
+SR19,Sales Rep 19,South,Enterprise
+SR20,Sales Rep 20,North,Regional

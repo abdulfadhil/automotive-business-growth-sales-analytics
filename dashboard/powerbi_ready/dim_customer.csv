@@ -1,0 +1,501 @@
+customer_id,customer_name,customer_type,industry,city,state,region,acquisition_date
+C0001,Customer 0001,SME,Construction,City 001,Karnataka,South,2025-08-19
+C0002,Customer 0002,SME,Automotive,City 002,Rajasthan,Central,2025-10-15
+C0003,Customer 0003,SME,Manufacturing,City 003,Maharashtra,West,2025-06-10
+C0004,Customer 0004,Mid-Market,Construction,City 004,West Bengal,East,2025-09-29
+C0005,Customer 0005,SME,Automotive,City 005,Delhi,North,2025-02-07
+C0006,Customer 0006,SME,Retail,City 006,Delhi,North,2025-08-14
+C0007,Customer 0007,SME,Retail,City 007,Delhi,North,2025-05-22
+C0008,Customer 0008,Mid-Market,Agriculture,City 008,Maharashtra,West,2025-10-19
+C0009,Customer 0009,Enterprise,Logistics,City 009,West Bengal,East,2025-05-31
+C0010,Customer 0010,SME,Agriculture,City 010,Gujarat,West,2025-04-24
+C0011,Customer 0011,SME,Manufacturing,City 011,Haryana,North,2025-08-25
+C0012,Customer 0012,Mid-Market,Construction,City 012,Madhya Pradesh,Central,2025-03-07
+C0013,Customer 0013,SME,Manufacturing,City 013,Gujarat,West,2025-12-27
+C0014,Customer 0014,SME,Automotive,City 014,Punjab,North,2025-12-07
+C0015,Customer 0015,SME,Retail,City 015,Haryana,North,2025-09-15
+C0016,Customer 0016,SME,Agriculture,City 016,Delhi,North,2025-09-06
+C0017,Customer 0017,SME,Agriculture,City 017,Telangana,South,2025-11-27
+C0018,Customer 0018,Mid-Market,Agriculture,City 018,West Bengal,East,2025-11-19
+C0019,Customer 0019,SME,Manufacturing,City 019,Karnataka,South,2025-06-29
+C0020,Customer 0020,Enterprise,Retail,City 020,Karnataka,South,2025-07-09
+C0021,Customer 0021,SME,Construction,City 021,Odisha,East,2025-06-03
+C0022,Customer 0022,Mid-Market,Automotive,City 022,Punjab,North,2025-07-15
+C0023,Customer 0023,Mid-Market,Construction,City 023,Telangana,South,2025-11-07
+C0024,Customer 0024,SME,Manufacturing,City 024,Tamil Nadu,South,2025-09-19
+C0025,Customer 0025,Mid-Market,Automotive,City 025,Tamil Nadu,South,2025-05-23
+C0026,Customer 0026,SME,Agriculture,City 026,Goa,West,2025-12-08
+C0027,Customer 0027,Enterprise,Logistics,City 027,Delhi,North,2025-11-12
+C0028,Customer 0028,SME,Manufacturing,City 028,Odisha,East,2025-04-11
+C0029,Customer 0029,SME,Manufacturing,City 029,West Bengal,East,2025-09-01
+C0030,Customer 0030,SME,Retail,City 030,Punjab,North,2025-01-12
+C0031,Customer 0031,Enterprise,Construction,City 031,Jharkhand,East,2025-08-27
+C0032,Customer 0032,Mid-Market,Manufacturing,City 032,Delhi,North,2025-02-18
+C0033,Customer 0033,Mid-Market,Manufacturing,City 033,Haryana,North,2025-02-11
+C0034,Customer 0034,SME,Agriculture,City 034,Madhya Pradesh,Central,2025-06-15
+C0035,Customer 0035,Mid-Market,Agriculture,City 035,Chhattisgarh,Central,2025-03-23
+C0036,Customer 0036,SME,Automotive,City 036,Goa,West,2025-10-18
+C0037,Customer 0037,Enterprise,Logistics,City 037,Tamil Nadu,South,2025-06-07
+C0038,Customer 0038,SME,Retail,City 038,Punjab,North,2025-08-04
+C0039,Customer 0039,SME,Logistics,City 039,Goa,West,2025-06-07
+C0040,Customer 0040,SME,Automotive,City 040,Telangana,South,2025-05-14
+C0041,Customer 0041,SME,Agriculture,City 041,Delhi,North,2025-03-08
+C0042,Customer 0042,Mid-Market,Construction,City 042,Tamil Nadu,South,2025-12-02
+C0043,Customer 0043,SME,Agriculture,City 043,Delhi,North,2025-01-07
+C0044,Customer 0044,Mid-Market,Retail,City 044,Chhattisgarh,Central,2025-01-14
+C0045,Customer 0045,SME,Agriculture,City 045,Tamil Nadu,South,2025-03-14
+C0046,Customer 0046,Mid-Market,Retail,City 046,Goa,West,2025-06-12
+C0047,Customer 0047,SME,Retail,City 047,Telangana,South,2025-03-07
+C0048,Customer 0048,SME,Retail,City 048,West Bengal,East,2025-12-13
+C0049,Customer 0049,Mid-Market,Automotive,City 049,West Bengal,East,2025-05-10
+C0050,Customer 0050,SME,Retail,City 050,Haryana,North,2025-07-25
+C0051,Customer 0051,SME,Retail,City 051,Chhattisgarh,Central,2025-10-03
+C0052,Customer 0052,Enterprise,Construction,City 052,Maharashtra,West,2025-09-13
+C0053,Customer 0053,Enterprise,Logistics,City 053,Madhya Pradesh,Central,2025-09-23
+C0054,Customer 0054,SME,Manufacturing,City 054,Rajasthan,Central,2025-01-25
+C0055,Customer 0055,SME,Logistics,City 055,West Bengal,East,2025-10-08
+C0056,Customer 0056,Mid-Market,Retail,City 056,Chhattisgarh,Central,2025-09-10
+C0057,Customer 0057,SME,Construction,City 057,Haryana,North,2025-11-06
+C0058,Customer 0058,SME,Agriculture,City 058,Delhi,North,2025-10-16
+C0059,Customer 0059,SME,Construction,City 059,Haryana,North,2025-06-13
+C0060,Customer 0060,Mid-Market,Retail,City 060,Tamil Nadu,South,2025-04-05
+C0061,Customer 0061,Mid-Market,Construction,City 061,Tamil Nadu,South,2025-09-27
+C0062,Customer 0062,SME,Construction,City 062,Tamil Nadu,South,2025-11-17
+C0063,Customer 0063,SME,Retail,City 063,Gujarat,West,2025-04-20
+C0064,Customer 0064,SME,Automotive,City 064,Karnataka,South,2025-12-02
+C0065,Customer 0065,Mid-Market,Construction,City 065,Telangana,South,2025-11-06
+C0066,Customer 0066,SME,Manufacturing,City 066,West Bengal,East,2025-08-26
+C0067,Customer 0067,SME,Manufacturing,City 067,Delhi,North,2025-01-25
+C0068,Customer 0068,Mid-Market,Construction,City 068,Gujarat,West,2025-05-21
+C0069,Customer 0069,SME,Automotive,City 069,Delhi,North,2025-04-27
+C0070,Customer 0070,Mid-Market,Agriculture,City 070,Chhattisgarh,Central,2025-01-25
+C0071,Customer 0071,SME,Retail,City 071,Maharashtra,West,2025-03-20
+C0072,Customer 0072,SME,Manufacturing,City 072,Haryana,North,2025-03-09
+C0073,Customer 0073,SME,Agriculture,City 073,Delhi,North,2025-06-22
+C0074,Customer 0074,Mid-Market,Construction,City 074,Maharashtra,West,2025-01-12
+C0075,Customer 0075,Enterprise,Agriculture,City 075,Gujarat,West,2025-10-15
+C0076,Customer 0076,Enterprise,Logistics,City 076,Maharashtra,West,2025-05-08
+C0077,Customer 0077,SME,Manufacturing,City 077,Maharashtra,West,2025-04-06
+C0078,Customer 0078,Mid-Market,Construction,City 078,Punjab,North,2025-04-02
+C0079,Customer 0079,SME,Retail,City 079,Telangana,South,2025-05-21
+C0080,Customer 0080,SME,Automotive,City 080,Haryana,North,2025-01-31
+C0081,Customer 0081,Enterprise,Construction,City 081,Gujarat,West,2025-11-30
+C0082,Customer 0082,SME,Retail,City 082,Odisha,East,2025-01-20
+C0083,Customer 0083,SME,Automotive,City 083,Karnataka,South,2025-05-26
+C0084,Customer 0084,SME,Automotive,City 084,Punjab,North,2025-11-12
+C0085,Customer 0085,SME,Construction,City 085,Karnataka,South,2025-06-09
+C0086,Customer 0086,SME,Agriculture,City 086,Telangana,South,2025-12-15
+C0087,Customer 0087,Mid-Market,Agriculture,City 087,Goa,West,2025-02-12
+C0088,Customer 0088,SME,Automotive,City 088,Odisha,East,2025-09-11
+C0089,Customer 0089,Enterprise,Agriculture,City 089,Madhya Pradesh,Central,2025-05-10
+C0090,Customer 0090,Mid-Market,Logistics,City 090,Karnataka,South,2025-03-01
+C0091,Customer 0091,SME,Automotive,City 091,Delhi,North,2025-05-31
+C0092,Customer 0092,SME,Automotive,City 092,Gujarat,West,2025-10-14
+C0093,Customer 0093,SME,Retail,City 093,Gujarat,West,2025-01-05
+C0094,Customer 0094,Mid-Market,Agriculture,City 094,Jharkhand,East,2025-09-23
+C0095,Customer 0095,SME,Automotive,City 095,Maharashtra,West,2025-12-11
+C0096,Customer 0096,Mid-Market,Logistics,City 096,Tamil Nadu,South,2025-05-10
+C0097,Customer 0097,SME,Retail,City 097,Jharkhand,East,2025-09-24
+C0098,Customer 0098,Mid-Market,Construction,City 098,Telangana,South,2025-06-27
+C0099,Customer 0099,SME,Automotive,City 099,Haryana,North,2025-09-10
+C0100,Customer 0100,SME,Logistics,City 100,Haryana,North,2025-02-25
+C0101,Customer 0101,Enterprise,Manufacturing,City 101,Delhi,North,2025-03-24
+C0102,Customer 0102,Mid-Market,Logistics,City 102,West Bengal,East,2025-04-09
+C0103,Customer 0103,SME,Logistics,City 103,Karnataka,South,2025-05-29
+C0104,Customer 0104,Enterprise,Retail,City 104,Odisha,East,2025-11-25
+C0105,Customer 0105,Mid-Market,Construction,City 105,Rajasthan,Central,2025-06-05
+C0106,Customer 0106,Enterprise,Manufacturing,City 106,Telangana,South,2025-07-09
+C0107,Customer 0107,Mid-Market,Agriculture,City 107,Telangana,South,2025-09-20
+C0108,Customer 0108,SME,Agriculture,City 108,Gujarat,West,2025-03-21
+C0109,Customer 0109,SME,Logistics,City 109,Karnataka,South,2025-09-09
+C0110,Customer 0110,SME,Retail,City 110,Punjab,North,2025-04-07
+C0111,Customer 0111,Mid-Market,Retail,City 111,Karnataka,South,2025-09-17
+C0112,Customer 0112,Mid-Market,Agriculture,City 112,Punjab,North,2025-09-17
+C0113,Customer 0113,SME,Manufacturing,City 113,Chhattisgarh,Central,2025-04-13
+C0114,Customer 0114,SME,Construction,City 114,Gujarat,West,2025-02-09
+C0115,Customer 0115,Enterprise,Manufacturing,City 115,Jharkhand,East,2025-09-30
+C0116,Customer 0116,Enterprise,Automotive,City 116,Goa,West,2025-04-11
+C0117,Customer 0117,Mid-Market,Automotive,City 117,Goa,West,2025-12-25
+C0118,Customer 0118,SME,Construction,City 118,Haryana,North,2025-11-04
+C0119,Customer 0119,SME,Agriculture,City 119,Chhattisgarh,Central,2025-08-09
+C0120,Customer 0120,SME,Construction,City 120,West Bengal,East,2025-11-04
+C0121,Customer 0121,Enterprise,Retail,City 121,Gujarat,West,2025-05-04
+C0122,Customer 0122,SME,Automotive,City 122,Madhya Pradesh,Central,2025-08-19
+C0123,Customer 0123,Mid-Market,Logistics,City 123,Telangana,South,2025-06-27
+C0124,Customer 0124,SME,Logistics,City 124,Punjab,North,2025-03-04
+C0125,Customer 0125,Mid-Market,Agriculture,City 125,Telangana,South,2025-04-26
+C0126,Customer 0126,Mid-Market,Retail,City 126,Karnataka,South,2025-07-10
+C0127,Customer 0127,Enterprise,Manufacturing,City 127,Goa,West,2025-03-03
+C0128,Customer 0128,SME,Retail,City 128,Maharashtra,West,2025-09-13
+C0129,Customer 0129,SME,Logistics,City 129,Delhi,North,2025-01-07
+C0130,Customer 0130,SME,Logistics,City 130,West Bengal,East,2025-06-04
+C0131,Customer 0131,Enterprise,Automotive,City 131,Karnataka,South,2025-04-02
+C0132,Customer 0132,Enterprise,Retail,City 132,Tamil Nadu,South,2025-01-14
+C0133,Customer 0133,Mid-Market,Retail,City 133,Punjab,North,2025-08-17
+C0134,Customer 0134,Mid-Market,Logistics,City 134,Tamil Nadu,South,2025-03-27
+C0135,Customer 0135,Mid-Market,Manufacturing,City 135,Madhya Pradesh,Central,2025-05-13
+C0136,Customer 0136,SME,Agriculture,City 136,Karnataka,South,2025-07-02
+C0137,Customer 0137,Enterprise,Agriculture,City 137,Odisha,East,2025-03-03
+C0138,Customer 0138,SME,Retail,City 138,Maharashtra,West,2025-08-07
+C0139,Customer 0139,SME,Agriculture,City 139,Karnataka,South,2025-09-03
+C0140,Customer 0140,Mid-Market,Logistics,City 140,Madhya Pradesh,Central,2025-08-18
+C0141,Customer 0141,SME,Logistics,City 141,Chhattisgarh,Central,2025-03-20
+C0142,Customer 0142,SME,Retail,City 142,Telangana,South,2025-05-29
+C0143,Customer 0143,Mid-Market,Retail,City 143,Telangana,South,2025-05-18
+C0144,Customer 0144,SME,Automotive,City 144,Telangana,South,2025-11-10
+C0145,Customer 0145,Mid-Market,Retail,City 145,Telangana,South,2025-03-06
+C0146,Customer 0146,SME,Manufacturing,City 146,Haryana,North,2025-01-13
+C0147,Customer 0147,SME,Agriculture,City 147,West Bengal,East,2025-08-01
+C0148,Customer 0148,SME,Retail,City 148,Jharkhand,East,2025-08-30
+C0149,Customer 0149,SME,Construction,City 149,Haryana,North,2025-08-01
+C0150,Customer 0150,Mid-Market,Automotive,City 150,Telangana,South,2025-06-30
+C0151,Customer 0151,SME,Construction,City 151,Rajasthan,Central,2025-12-04
+C0152,Customer 0152,Mid-Market,Logistics,City 152,Karnataka,South,2025-06-22
+C0153,Customer 0153,SME,Agriculture,City 153,Delhi,North,2025-06-09
+C0154,Customer 0154,Mid-Market,Retail,City 154,Telangana,South,2025-06-13
+C0155,Customer 0155,Enterprise,Construction,City 155,Rajasthan,Central,2025-07-07
+C0156,Customer 0156,Mid-Market,Agriculture,City 156,Telangana,South,2025-07-10
+C0157,Customer 0157,SME,Logistics,City 157,Maharashtra,West,2025-11-04
+C0158,Customer 0158,SME,Manufacturing,City 158,Gujarat,West,2025-09-13
+C0159,Customer 0159,SME,Automotive,City 159,Tamil Nadu,South,2025-07-02
+C0160,Customer 0160,Mid-Market,Agriculture,City 160,Gujarat,West,2025-04-27
+C0161,Customer 0161,SME,Agriculture,City 161,Telangana,South,2025-10-09
+C0162,Customer 0162,Mid-Market,Manufacturing,City 162,Jharkhand,East,2025-07-15
+C0163,Customer 0163,Mid-Market,Agriculture,City 163,West Bengal,East,2025-02-03
+C0164,Customer 0164,SME,Logistics,City 164,West Bengal,East,2025-02-21
+C0165,Customer 0165,Mid-Market,Logistics,City 165,Punjab,North,2025-04-22
+C0166,Customer 0166,SME,Manufacturing,City 166,Gujarat,West,2025-09-09
+C0167,Customer 0167,SME,Automotive,City 167,Tamil Nadu,South,2025-03-23
+C0168,Customer 0168,Mid-Market,Retail,City 168,Punjab,North,2025-08-20
+C0169,Customer 0169,Mid-Market,Construction,City 169,Delhi,North,2025-08-15
+C0170,Customer 0170,Mid-Market,Retail,City 170,Odisha,East,2025-08-21
+C0171,Customer 0171,SME,Agriculture,City 171,Maharashtra,West,2025-08-09
+C0172,Customer 0172,SME,Construction,City 172,Delhi,North,2025-02-11
+C0173,Customer 0173,Mid-Market,Manufacturing,City 173,West Bengal,East,2025-01-21
+C0174,Customer 0174,Mid-Market,Manufacturing,City 174,Karnataka,South,2025-02-11
+C0175,Customer 0175,Mid-Market,Automotive,City 175,Odisha,East,2025-04-23
+C0176,Customer 0176,SME,Construction,City 176,Punjab,North,2025-04-15
+C0177,Customer 0177,Mid-Market,Logistics,City 177,Maharashtra,West,2025-07-11
+C0178,Customer 0178,SME,Construction,City 178,Karnataka,South,2025-01-17
+C0179,Customer 0179,SME,Agriculture,City 179,Chhattisgarh,Central,2025-04-30
+C0180,Customer 0180,Enterprise,Logistics,City 180,Delhi,North,2025-05-09
+C0181,Customer 0181,SME,Manufacturing,City 181,Telangana,South,2025-05-10
+C0182,Customer 0182,Enterprise,Construction,City 182,Delhi,North,2025-03-01
+C0183,Customer 0183,SME,Retail,City 183,Chhattisgarh,Central,2025-02-17
+C0184,Customer 0184,SME,Automotive,City 184,Maharashtra,West,2025-01-29
+C0185,Customer 0185,Mid-Market,Retail,City 185,Telangana,South,2025-04-07
+C0186,Customer 0186,Enterprise,Automotive,City 186,Maharashtra,West,2025-01-10
+C0187,Customer 0187,Mid-Market,Agriculture,City 187,Gujarat,West,2025-08-30
+C0188,Customer 0188,Mid-Market,Retail,City 188,Jharkhand,East,2025-11-10
+C0189,Customer 0189,Mid-Market,Construction,City 189,Odisha,East,2025-08-20
+C0190,Customer 0190,Mid-Market,Construction,City 190,Telangana,South,2025-10-04
+C0191,Customer 0191,Enterprise,Retail,City 191,Haryana,North,2025-10-11
+C0192,Customer 0192,SME,Construction,City 192,Madhya Pradesh,Central,2025-07-22
+C0193,Customer 0193,Mid-Market,Agriculture,City 193,Madhya Pradesh,Central,2025-09-04
+C0194,Customer 0194,SME,Logistics,City 194,Odisha,East,2025-10-17
+C0195,Customer 0195,Enterprise,Agriculture,City 195,Tamil Nadu,South,2025-09-21
+C0196,Customer 0196,Enterprise,Automotive,City 196,Tamil Nadu,South,2025-08-02
+C0197,Customer 0197,SME,Agriculture,City 197,Goa,West,2025-07-19
+C0198,Customer 0198,Mid-Market,Automotive,City 198,Madhya Pradesh,Central,2025-03-20
+C0199,Customer 0199,Enterprise,Construction,City 199,Rajasthan,Central,2025-12-09
+C0200,Customer 0200,SME,Logistics,City 200,Goa,West,2025-12-10
+C0201,Customer 0201,Mid-Market,Construction,City 201,Jharkhand,East,2025-06-22
+C0202,Customer 0202,Enterprise,Manufacturing,City 202,Punjab,North,2025-03-10
+C0203,Customer 0203,SME,Construction,City 203,Punjab,North,2025-03-28
+C0204,Customer 0204,Mid-Market,Automotive,City 204,Chhattisgarh,Central,2025-04-11
+C0205,Customer 0205,SME,Construction,City 205,Jharkhand,East,2025-01-08
+C0206,Customer 0206,Enterprise,Construction,City 206,Punjab,North,2025-11-29
+C0207,Customer 0207,Enterprise,Logistics,City 207,Punjab,North,2025-07-19
+C0208,Customer 0208,Enterprise,Construction,City 208,Maharashtra,West,2025-03-28
+C0209,Customer 0209,SME,Logistics,City 209,Punjab,North,2025-02-12
+C0210,Customer 0210,Enterprise,Retail,City 210,Punjab,North,2025-04-19
+C0211,Customer 0211,Enterprise,Manufacturing,City 211,Jharkhand,East,2025-06-01
+C0212,Customer 0212,SME,Logistics,City 212,Goa,West,2025-01-17
+C0213,Customer 0213,Enterprise,Automotive,City 213,Goa,West,2025-05-13
+C0214,Customer 0214,SME,Retail,City 214,Telangana,South,2025-05-28
+C0215,Customer 0215,Mid-Market,Logistics,City 215,Goa,West,2025-10-04
+C0216,Customer 0216,SME,Logistics,City 216,Telangana,South,2025-08-20
+C0217,Customer 0217,SME,Manufacturing,City 217,Karnataka,South,2025-11-10
+C0218,Customer 0218,SME,Automotive,City 218,Goa,West,2025-08-16
+C0219,Customer 0219,Mid-Market,Agriculture,City 219,Jharkhand,East,2025-05-19
+C0220,Customer 0220,SME,Agriculture,City 220,Maharashtra,West,2025-07-30
+C0221,Customer 0221,Mid-Market,Logistics,City 221,Gujarat,West,2025-01-28
+C0222,Customer 0222,SME,Construction,City 222,Odisha,East,2025-02-20
+C0223,Customer 0223,SME,Automotive,City 223,Punjab,North,2025-09-18
+C0224,Customer 0224,Mid-Market,Retail,City 224,Telangana,South,2025-09-18
+C0225,Customer 0225,Mid-Market,Construction,City 225,Telangana,South,2025-12-16
+C0226,Customer 0226,SME,Construction,City 226,Telangana,South,2025-12-18
+C0227,Customer 0227,Mid-Market,Automotive,City 227,Madhya Pradesh,Central,2025-01-08
+C0228,Customer 0228,Enterprise,Logistics,City 228,Telangana,South,2025-11-16
+C0229,Customer 0229,Mid-Market,Logistics,City 229,Madhya Pradesh,Central,2025-05-18
+C0230,Customer 0230,SME,Logistics,City 230,Odisha,East,2025-02-07
+C0231,Customer 0231,SME,Logistics,City 231,Goa,West,2025-04-21
+C0232,Customer 0232,Enterprise,Agriculture,City 232,West Bengal,East,2025-08-08
+C0233,Customer 0233,SME,Logistics,City 233,West Bengal,East,2025-12-03
+C0234,Customer 0234,Enterprise,Agriculture,City 234,Telangana,South,2025-08-11
+C0235,Customer 0235,Mid-Market,Agriculture,City 235,Punjab,North,2025-05-16
+C0236,Customer 0236,Enterprise,Logistics,City 236,Gujarat,West,2025-09-13
+C0237,Customer 0237,Mid-Market,Manufacturing,City 237,Karnataka,South,2025-12-26
+C0238,Customer 0238,Enterprise,Retail,City 238,Delhi,North,2025-11-25
+C0239,Customer 0239,SME,Construction,City 239,West Bengal,East,2025-02-18
+C0240,Customer 0240,Mid-Market,Agriculture,City 240,Delhi,North,2025-10-19
+C0241,Customer 0241,SME,Automotive,City 241,Madhya Pradesh,Central,2025-11-20
+C0242,Customer 0242,SME,Automotive,City 242,Chhattisgarh,Central,2025-03-19
+C0243,Customer 0243,Mid-Market,Retail,City 243,Rajasthan,Central,2025-04-15
+C0244,Customer 0244,Enterprise,Automotive,City 244,Tamil Nadu,South,2025-06-18
+C0245,Customer 0245,Enterprise,Manufacturing,City 245,Delhi,North,2025-08-05
+C0246,Customer 0246,Mid-Market,Automotive,City 246,Chhattisgarh,Central,2025-04-29
+C0247,Customer 0247,SME,Construction,City 247,Telangana,South,2025-07-09
+C0248,Customer 0248,SME,Construction,City 248,Rajasthan,Central,2025-09-12
+C0249,Customer 0249,Mid-Market,Agriculture,City 249,Chhattisgarh,Central,2025-09-23
+C0250,Customer 0250,SME,Logistics,City 250,Gujarat,West,2025-05-29
+C0251,Customer 0251,SME,Manufacturing,City 251,Telangana,South,2025-06-13
+C0252,Customer 0252,SME,Agriculture,City 252,Tamil Nadu,South,2025-05-20
+C0253,Customer 0253,SME,Manufacturing,City 253,Goa,West,2025-12-13
+C0254,Customer 0254,SME,Logistics,City 254,Karnataka,South,2025-09-15
+C0255,Customer 0255,SME,Automotive,City 255,Delhi,North,2025-09-26
+C0256,Customer 0256,SME,Automotive,City 256,West Bengal,East,2025-06-30
+C0257,Customer 0257,SME,Logistics,City 257,Chhattisgarh,Central,2025-06-09
+C0258,Customer 0258,Enterprise,Agriculture,City 258,Gujarat,West,2025-12-17
+C0259,Customer 0259,SME,Logistics,City 259,Odisha,East,2025-10-15
+C0260,Customer 0260,SME,Retail,City 260,Haryana,North,2025-10-15
+C0261,Customer 0261,Mid-Market,Construction,City 261,Jharkhand,East,2025-08-14
+C0262,Customer 0262,SME,Agriculture,City 262,Madhya Pradesh,Central,2025-01-11
+C0263,Customer 0263,Enterprise,Manufacturing,City 263,Punjab,North,2025-01-10
+C0264,Customer 0264,Mid-Market,Retail,City 264,West Bengal,East,2025-09-28
+C0265,Customer 0265,SME,Agriculture,City 265,Maharashtra,West,2025-09-30
+C0266,Customer 0266,SME,Logistics,City 266,Maharashtra,West,2025-07-02
+C0267,Customer 0267,Enterprise,Logistics,City 267,Maharashtra,West,2025-06-02
+C0268,Customer 0268,Enterprise,Logistics,City 268,Gujarat,West,2025-11-11
+C0269,Customer 0269,SME,Logistics,City 269,Tamil Nadu,South,2025-11-30
+C0270,Customer 0270,Mid-Market,Manufacturing,City 270,Karnataka,South,2025-05-04
+C0271,Customer 0271,SME,Retail,City 271,Gujarat,West,2025-04-24
+C0272,Customer 0272,Enterprise,Automotive,City 272,Goa,West,2025-10-05
+C0273,Customer 0273,SME,Construction,City 273,Gujarat,West,2025-08-01
+C0274,Customer 0274,Enterprise,Manufacturing,City 274,Rajasthan,Central,2025-06-21
+C0275,Customer 0275,Mid-Market,Manufacturing,City 275,Odisha,East,2025-10-15
+C0276,Customer 0276,Mid-Market,Automotive,City 276,Odisha,East,2025-06-23
+C0277,Customer 0277,Mid-Market,Automotive,City 277,Gujarat,West,2025-04-23
+C0278,Customer 0278,SME,Construction,City 278,Jharkhand,East,2025-05-02
+C0279,Customer 0279,SME,Construction,City 279,Goa,West,2025-02-01
+C0280,Customer 0280,SME,Automotive,City 280,Maharashtra,West,2025-08-10
+C0281,Customer 0281,SME,Logistics,City 281,Rajasthan,Central,2025-04-29
+C0282,Customer 0282,Mid-Market,Manufacturing,City 282,Telangana,South,2025-02-08
+C0283,Customer 0283,SME,Agriculture,City 283,Telangana,South,2025-09-25
+C0284,Customer 0284,SME,Construction,City 284,Haryana,North,2025-08-21
+C0285,Customer 0285,Enterprise,Construction,City 285,West Bengal,East,2025-01-18
+C0286,Customer 0286,Enterprise,Automotive,City 286,Haryana,North,2025-05-29
+C0287,Customer 0287,Enterprise,Retail,City 287,Karnataka,South,2025-05-29
+C0288,Customer 0288,Enterprise,Agriculture,City 288,Odisha,East,2025-05-06
+C0289,Customer 0289,SME,Agriculture,City 289,Telangana,South,2025-10-29
+C0290,Customer 0290,SME,Construction,City 290,Jharkhand,East,2025-12-26
+C0291,Customer 0291,Mid-Market,Logistics,City 291,Punjab,North,2025-08-26
+C0292,Customer 0292,Mid-Market,Retail,City 292,Punjab,North,2025-05-15
+C0293,Customer 0293,SME,Agriculture,City 293,Maharashtra,West,2025-05-31
+C0294,Customer 0294,Mid-Market,Construction,City 294,Karnataka,South,2025-08-24
+C0295,Customer 0295,SME,Agriculture,City 295,Punjab,North,2025-08-12
+C0296,Customer 0296,SME,Retail,City 296,Jharkhand,East,2025-07-22
+C0297,Customer 0297,Mid-Market,Retail,City 297,Gujarat,West,2025-09-13
+C0298,Customer 0298,Mid-Market,Manufacturing,City 298,Delhi,North,2025-03-27
+C0299,Customer 0299,Mid-Market,Automotive,City 299,Odisha,East,2025-05-30
+C0300,Customer 0300,SME,Automotive,City 300,Haryana,North,2025-08-23
+C0301,Customer 0301,Enterprise,Construction,City 301,Haryana,North,2025-12-11
+C0302,Customer 0302,SME,Retail,City 302,Odisha,East,2025-01-22
+C0303,Customer 0303,SME,Manufacturing,City 303,Jharkhand,East,2025-12-14
+C0304,Customer 0304,Enterprise,Manufacturing,City 304,West Bengal,East,2025-10-12
+C0305,Customer 0305,Enterprise,Agriculture,City 305,Maharashtra,West,2025-09-26
+C0306,Customer 0306,Enterprise,Agriculture,City 306,Chhattisgarh,Central,2025-09-15
+C0307,Customer 0307,Mid-Market,Manufacturing,City 307,Odisha,East,2025-01-29
+C0308,Customer 0308,Mid-Market,Agriculture,City 308,Karnataka,South,2025-08-01
+C0309,Customer 0309,Mid-Market,Retail,City 309,Goa,West,2025-10-10
+C0310,Customer 0310,SME,Logistics,City 310,Tamil Nadu,South,2025-02-19
+C0311,Customer 0311,SME,Retail,City 311,Tamil Nadu,South,2025-04-05
+C0312,Customer 0312,SME,Manufacturing,City 312,Haryana,North,2025-03-29
+C0313,Customer 0313,SME,Manufacturing,City 313,Delhi,North,2025-02-13
+C0314,Customer 0314,Mid-Market,Retail,City 314,Chhattisgarh,Central,2025-10-05
+C0315,Customer 0315,Mid-Market,Agriculture,City 315,Gujarat,West,2025-06-20
+C0316,Customer 0316,SME,Agriculture,City 316,Gujarat,West,2025-07-08
+C0317,Customer 0317,SME,Automotive,City 317,Tamil Nadu,South,2025-12-19
+C0318,Customer 0318,Mid-Market,Manufacturing,City 318,Punjab,North,2025-07-03
+C0319,Customer 0319,SME,Construction,City 319,Haryana,North,2025-01-03
+C0320,Customer 0320,Enterprise,Automotive,City 320,Telangana,South,2025-07-10
+C0321,Customer 0321,Mid-Market,Agriculture,City 321,West Bengal,East,2025-04-28
+C0322,Customer 0322,Mid-Market,Retail,City 322,Goa,West,2025-01-19
+C0323,Customer 0323,Mid-Market,Agriculture,City 323,Goa,West,2025-01-23
+C0324,Customer 0324,Enterprise,Retail,City 324,Tamil Nadu,South,2025-01-30
+C0325,Customer 0325,SME,Automotive,City 325,Chhattisgarh,Central,2025-10-22
+C0326,Customer 0326,Mid-Market,Manufacturing,City 326,Gujarat,West,2025-04-18
+C0327,Customer 0327,Mid-Market,Agriculture,City 327,Odisha,East,2025-10-08
+C0328,Customer 0328,SME,Retail,City 328,West Bengal,East,2025-05-08
+C0329,Customer 0329,Enterprise,Manufacturing,City 329,Telangana,South,2025-08-17
+C0330,Customer 0330,Mid-Market,Construction,City 330,Karnataka,South,2025-04-21
+C0331,Customer 0331,Mid-Market,Retail,City 331,Karnataka,South,2025-05-16
+C0332,Customer 0332,Enterprise,Automotive,City 332,Maharashtra,West,2025-12-28
+C0333,Customer 0333,Enterprise,Construction,City 333,Punjab,North,2025-07-05
+C0334,Customer 0334,Mid-Market,Construction,City 334,Delhi,North,2025-05-24
+C0335,Customer 0335,Enterprise,Logistics,City 335,Haryana,North,2025-03-13
+C0336,Customer 0336,Mid-Market,Agriculture,City 336,Delhi,North,2025-05-09
+C0337,Customer 0337,Mid-Market,Retail,City 337,Maharashtra,West,2025-12-30
+C0338,Customer 0338,Mid-Market,Construction,City 338,Maharashtra,West,2025-09-18
+C0339,Customer 0339,Mid-Market,Logistics,City 339,Tamil Nadu,South,2025-01-03
+C0340,Customer 0340,SME,Automotive,City 340,Haryana,North,2025-04-14
+C0341,Customer 0341,Enterprise,Manufacturing,City 341,Telangana,South,2025-08-12
+C0342,Customer 0342,Enterprise,Retail,City 342,Karnataka,South,2025-11-16
+C0343,Customer 0343,SME,Construction,City 343,Haryana,North,2025-12-28
+C0344,Customer 0344,Enterprise,Agriculture,City 344,Telangana,South,2025-12-20
+C0345,Customer 0345,SME,Logistics,City 345,Karnataka,South,2025-01-10
+C0346,Customer 0346,SME,Construction,City 346,Jharkhand,East,2025-10-29
+C0347,Customer 0347,Mid-Market,Agriculture,City 347,West Bengal,East,2025-08-19
+C0348,Customer 0348,SME,Construction,City 348,Delhi,North,2025-08-07
+C0349,Customer 0349,Mid-Market,Retail,City 349,Karnataka,South,2025-03-07
+C0350,Customer 0350,Enterprise,Retail,City 350,Odisha,East,2025-04-22
+C0351,Customer 0351,Mid-Market,Retail,City 351,Odisha,East,2025-01-13
+C0352,Customer 0352,SME,Automotive,City 352,Maharashtra,West,2025-03-27
+C0353,Customer 0353,SME,Automotive,City 353,Goa,West,2025-08-22
+C0354,Customer 0354,Mid-Market,Logistics,City 354,Delhi,North,2025-03-31
+C0355,Customer 0355,Enterprise,Retail,City 355,Punjab,North,2025-11-10
+C0356,Customer 0356,Mid-Market,Agriculture,City 356,Jharkhand,East,2025-02-23
+C0357,Customer 0357,SME,Construction,City 357,Haryana,North,2025-01-12
+C0358,Customer 0358,Mid-Market,Manufacturing,City 358,West Bengal,East,2025-07-28
+C0359,Customer 0359,Mid-Market,Agriculture,City 359,Chhattisgarh,Central,2025-01-14
+C0360,Customer 0360,Mid-Market,Automotive,City 360,West Bengal,East,2025-05-01
+C0361,Customer 0361,SME,Automotive,City 361,Telangana,South,2025-01-20
+C0362,Customer 0362,Mid-Market,Agriculture,City 362,West Bengal,East,2025-03-16
+C0363,Customer 0363,Mid-Market,Automotive,City 363,Tamil Nadu,South,2025-08-31
+C0364,Customer 0364,Enterprise,Retail,City 364,Odisha,East,2025-08-11
+C0365,Customer 0365,SME,Logistics,City 365,Chhattisgarh,Central,2025-03-11
+C0366,Customer 0366,Mid-Market,Construction,City 366,Telangana,South,2025-11-08
+C0367,Customer 0367,Enterprise,Logistics,City 367,Madhya Pradesh,Central,2025-07-30
+C0368,Customer 0368,SME,Construction,City 368,Madhya Pradesh,Central,2025-04-11
+C0369,Customer 0369,Enterprise,Construction,City 369,Delhi,North,2025-07-05
+C0370,Customer 0370,Mid-Market,Logistics,City 370,Haryana,North,2025-05-12
+C0371,Customer 0371,SME,Agriculture,City 371,Haryana,North,2025-04-21
+C0372,Customer 0372,SME,Construction,City 372,Punjab,North,2025-05-12
+C0373,Customer 0373,Mid-Market,Logistics,City 373,Punjab,North,2025-01-20
+C0374,Customer 0374,SME,Construction,City 374,Gujarat,West,2025-01-24
+C0375,Customer 0375,Mid-Market,Manufacturing,City 375,Delhi,North,2025-08-15
+C0376,Customer 0376,SME,Agriculture,City 376,Tamil Nadu,South,2025-06-03
+C0377,Customer 0377,Mid-Market,Retail,City 377,Gujarat,West,2025-10-20
+C0378,Customer 0378,SME,Construction,City 378,Delhi,North,2025-08-18
+C0379,Customer 0379,Enterprise,Manufacturing,City 379,Gujarat,West,2025-11-06
+C0380,Customer 0380,Enterprise,Retail,City 380,Telangana,South,2025-12-25
+C0381,Customer 0381,Enterprise,Retail,City 381,Punjab,North,2025-07-21
+C0382,Customer 0382,Mid-Market,Construction,City 382,Goa,West,2025-02-07
+C0383,Customer 0383,SME,Logistics,City 383,West Bengal,East,2025-09-17
+C0384,Customer 0384,Mid-Market,Construction,City 384,Gujarat,West,2025-07-07
+C0385,Customer 0385,SME,Manufacturing,City 385,Maharashtra,West,2025-02-26
+C0386,Customer 0386,SME,Retail,City 386,Goa,West,2025-01-20
+C0387,Customer 0387,SME,Construction,City 387,Telangana,South,2025-09-30
+C0388,Customer 0388,Mid-Market,Logistics,City 388,Haryana,North,2025-04-29
+C0389,Customer 0389,Mid-Market,Construction,City 389,Maharashtra,West,2025-03-12
+C0390,Customer 0390,Mid-Market,Agriculture,City 390,Maharashtra,West,2025-01-04
+C0391,Customer 0391,SME,Logistics,City 391,Madhya Pradesh,Central,2025-08-09
+C0392,Customer 0392,SME,Manufacturing,City 392,Tamil Nadu,South,2025-01-14
+C0393,Customer 0393,Enterprise,Retail,City 393,Telangana,South,2025-01-03
+C0394,Customer 0394,SME,Construction,City 394,Goa,West,2025-08-04
+C0395,Customer 0395,SME,Logistics,City 395,Karnataka,South,2025-08-17
+C0396,Customer 0396,SME,Agriculture,City 396,Chhattisgarh,Central,2025-12-02
+C0397,Customer 0397,Mid-Market,Logistics,City 397,Maharashtra,West,2025-07-05
+C0398,Customer 0398,Mid-Market,Automotive,City 398,Telangana,South,2025-02-24
+C0399,Customer 0399,SME,Agriculture,City 399,Goa,West,2025-09-11
+C0400,Customer 0400,SME,Manufacturing,City 400,Goa,West,2025-01-24
+C0401,Customer 0401,Mid-Market,Retail,City 401,Punjab,North,2025-06-11
+C0402,Customer 0402,Mid-Market,Manufacturing,City 402,Chhattisgarh,Central,2025-06-07
+C0403,Customer 0403,SME,Construction,City 403,Jharkhand,East,2025-03-23
+C0404,Customer 0404,Enterprise,Logistics,City 404,Goa,West,2025-06-08
+C0405,Customer 0405,SME,Automotive,City 405,Telangana,South,2025-07-07
+C0406,Customer 0406,SME,Agriculture,City 406,Chhattisgarh,Central,2025-03-01
+C0407,Customer 0407,Enterprise,Agriculture,City 407,Telangana,South,2025-11-01
+C0408,Customer 0408,SME,Logistics,City 408,Haryana,North,2025-11-15
+C0409,Customer 0409,Mid-Market,Automotive,City 409,Madhya Pradesh,Central,2025-07-30
+C0410,Customer 0410,SME,Logistics,City 410,Delhi,North,2025-06-01
+C0411,Customer 0411,SME,Construction,City 411,Karnataka,South,2025-04-19
+C0412,Customer 0412,Enterprise,Manufacturing,City 412,Rajasthan,Central,2025-03-17
+C0413,Customer 0413,SME,Agriculture,City 413,Rajasthan,Central,2025-01-30
+C0414,Customer 0414,Enterprise,Construction,City 414,West Bengal,East,2025-11-10
+C0415,Customer 0415,SME,Manufacturing,City 415,Odisha,East,2025-04-27
+C0416,Customer 0416,SME,Construction,City 416,Tamil Nadu,South,2025-12-22
+C0417,Customer 0417,SME,Automotive,City 417,Tamil Nadu,South,2025-07-11
+C0418,Customer 0418,Mid-Market,Agriculture,City 418,Tamil Nadu,South,2025-01-19
+C0419,Customer 0419,SME,Logistics,City 419,Maharashtra,West,2025-06-22
+C0420,Customer 0420,Enterprise,Logistics,City 420,Goa,West,2025-08-16
+C0421,Customer 0421,SME,Manufacturing,City 421,Goa,West,2025-12-16
+C0422,Customer 0422,Enterprise,Retail,City 422,Maharashtra,West,2025-07-02
+C0423,Customer 0423,SME,Automotive,City 423,Punjab,North,2025-04-23
+C0424,Customer 0424,Enterprise,Manufacturing,City 424,Karnataka,South,2025-07-02
+C0425,Customer 0425,Mid-Market,Retail,City 425,Punjab,North,2025-05-26
+C0426,Customer 0426,Mid-Market,Construction,City 426,Odisha,East,2025-11-15
+C0427,Customer 0427,Enterprise,Automotive,City 427,Tamil Nadu,South,2025-04-26
+C0428,Customer 0428,Mid-Market,Construction,City 428,Rajasthan,Central,2025-04-23
+C0429,Customer 0429,Mid-Market,Agriculture,City 429,Karnataka,South,2025-09-08
+C0430,Customer 0430,SME,Automotive,City 430,Delhi,North,2025-09-08
+C0431,Customer 0431,SME,Retail,City 431,Punjab,North,2025-10-30
+C0432,Customer 0432,Enterprise,Agriculture,City 432,Gujarat,West,2025-11-09
+C0433,Customer 0433,Mid-Market,Logistics,City 433,West Bengal,East,2025-04-28
+C0434,Customer 0434,Mid-Market,Retail,City 434,Haryana,North,2025-10-28
+C0435,Customer 0435,Mid-Market,Manufacturing,City 435,Haryana,North,2025-06-10
+C0436,Customer 0436,SME,Logistics,City 436,Maharashtra,West,2025-07-17
+C0437,Customer 0437,SME,Logistics,City 437,Haryana,North,2025-09-17
+C0438,Customer 0438,Mid-Market,Manufacturing,City 438,Maharashtra,West,2025-05-28
+C0439,Customer 0439,SME,Automotive,City 439,Maharashtra,West,2025-08-28
+C0440,Customer 0440,SME,Logistics,City 440,Delhi,North,2025-02-16
+C0441,Customer 0441,Mid-Market,Retail,City 441,Haryana,North,2025-07-17
+C0442,Customer 0442,SME,Agriculture,City 442,Madhya Pradesh,Central,2025-02-16
+C0443,Customer 0443,Mid-Market,Logistics,City 443,Karnataka,South,2025-03-19
+C0444,Customer 0444,SME,Retail,City 444,Telangana,South,2025-05-04
+C0445,Customer 0445,Mid-Market,Construction,City 445,Goa,West,2025-03-16
+C0446,Customer 0446,SME,Retail,City 446,Rajasthan,Central,2025-12-25
+C0447,Customer 0447,SME,Agriculture,City 447,Rajasthan,Central,2025-05-17
+C0448,Customer 0448,SME,Retail,City 448,Gujarat,West,2025-03-31
+C0449,Customer 0449,SME,Manufacturing,City 449,Telangana,South,2025-11-21
+C0450,Customer 0450,SME,Agriculture,City 450,Haryana,North,2025-03-02
+C0451,Customer 0451,SME,Automotive,City 451,Maharashtra,West,2025-05-18
+C0452,Customer 0452,Mid-Market,Construction,City 452,Jharkhand,East,2025-02-19
+C0453,Customer 0453,SME,Manufacturing,City 453,Karnataka,South,2025-09-16
+C0454,Customer 0454,Mid-Market,Automotive,City 454,Chhattisgarh,Central,2025-04-17
+C0455,Customer 0455,Enterprise,Retail,City 455,Punjab,North,2025-04-23
+C0456,Customer 0456,Mid-Market,Agriculture,City 456,Karnataka,South,2025-12-16
+C0457,Customer 0457,SME,Construction,City 457,Haryana,North,2025-09-11
+C0458,Customer 0458,Mid-Market,Manufacturing,City 458,Telangana,South,2025-04-28
+C0459,Customer 0459,SME,Automotive,City 459,Punjab,North,2025-07-17
+C0460,Customer 0460,SME,Automotive,City 460,Punjab,North,2025-12-03
+C0461,Customer 0461,Enterprise,Construction,City 461,Haryana,North,2025-12-31
+C0462,Customer 0462,SME,Retail,City 462,Odisha,East,2025-02-20
+C0463,Customer 0463,Mid-Market,Construction,City 463,Maharashtra,West,2025-09-02
+C0464,Customer 0464,Mid-Market,Automotive,City 464,Odisha,East,2025-02-04
+C0465,Customer 0465,Mid-Market,Logistics,City 465,Chhattisgarh,Central,2025-10-29
+C0466,Customer 0466,Mid-Market,Manufacturing,City 466,Tamil Nadu,South,2025-03-10
+C0467,Customer 0467,SME,Construction,City 467,Tamil Nadu,South,2025-12-15
+C0468,Customer 0468,SME,Automotive,City 468,Goa,West,2025-11-16
+C0469,Customer 0469,Mid-Market,Retail,City 469,Telangana,South,2025-02-18
+C0470,Customer 0470,SME,Automotive,City 470,Madhya Pradesh,Central,2025-03-15
+C0471,Customer 0471,SME,Retail,City 471,Delhi,North,2025-07-11
+C0472,Customer 0472,SME,Construction,City 472,Rajasthan,Central,2025-09-18
+C0473,Customer 0473,SME,Retail,City 473,Punjab,North,2025-12-22
+C0474,Customer 0474,SME,Agriculture,City 474,Madhya Pradesh,Central,2025-03-11
+C0475,Customer 0475,SME,Agriculture,City 475,Jharkhand,East,2025-03-31
+C0476,Customer 0476,Mid-Market,Agriculture,City 476,Chhattisgarh,Central,2025-09-17
+C0477,Customer 0477,Mid-Market,Logistics,City 477,Delhi,North,2025-05-06
+C0478,Customer 0478,Mid-Market,Construction,City 478,Odisha,East,2025-08-19
+C0479,Customer 0479,SME,Automotive,City 479,Rajasthan,Central,2025-10-22
+C0480,Customer 0480,SME,Automotive,City 480,West Bengal,East,2025-05-09
+C0481,Customer 0481,SME,Logistics,City 481,Odisha,East,2025-10-07
+C0482,Customer 0482,Mid-Market,Retail,City 482,Maharashtra,West,2025-11-09
+C0483,Customer 0483,Mid-Market,Logistics,City 483,Karnataka,South,2025-04-10
+C0484,Customer 0484,SME,Retail,City 484,Jharkhand,East,2025-11-22
+C0485,Customer 0485,Enterprise,Retail,City 485,Jharkhand,East,2025-10-24
+C0486,Customer 0486,SME,Manufacturing,City 486,Madhya Pradesh,Central,2025-07-01
+C0487,Customer 0487,Mid-Market,Automotive,City 487,Punjab,North,2025-06-23
+C0488,Customer 0488,Mid-Market,Agriculture,City 488,Tamil Nadu,South,2025-11-12
+C0489,Customer 0489,Enterprise,Retail,City 489,Madhya Pradesh,Central,2025-12-30
+C0490,Customer 0490,Mid-Market,Manufacturing,City 490,Chhattisgarh,Central,2025-07-07
+C0491,Customer 0491,Mid-Market,Automotive,City 491,Karnataka,South,2025-02-26
+C0492,Customer 0492,SME,Agriculture,City 492,Odisha,East,2025-01-31
+C0493,Customer 0493,Mid-Market,Retail,City 493,Telangana,South,2025-03-25
+C0494,Customer 0494,SME,Retail,City 494,Delhi,North,2025-06-01
+C0495,Customer 0495,Enterprise,Logistics,City 495,Tamil Nadu,South,2025-02-05
+C0496,Customer 0496,Mid-Market,Logistics,City 496,Telangana,South,2025-08-01
+C0497,Customer 0497,Mid-Market,Automotive,City 497,Odisha,East,2025-12-30
+C0498,Customer 0498,SME,Agriculture,City 498,Haryana,North,2025-04-16
+C0499,Customer 0499,Mid-Market,Retail,City 499,Rajasthan,Central,2025-12-08
+C0500,Customer 0500,Mid-Market,Automotive,City 500,Rajasthan,Central,2025-08-08

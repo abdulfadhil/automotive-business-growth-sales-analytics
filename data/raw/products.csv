@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_price
+P001,FleetPro X1,Commercial Vehicle,1850000
+P002,FleetPro X2,Commercial Vehicle,2350000
+P003,CargoMax 10,Light Truck,1450000
+P004,CargoMax 15,Light Truck,1750000
+P005,HaulMaster 20,Heavy Truck,2950000
+P006,HaulMaster 30,Heavy Truck,3650000
+P007,UrbanMover,Utility Vehicle,1250000
+P008,UrbanMover Plus,Utility Vehicle,1550000
+P009,EcoHaul,Electric Vehicle,2150000
+P010,EcoHaul Pro,Electric Vehicle,2850000
+P011,FleetCare Basic,Service Package,95000
+P012,FleetCare Plus,Service Package,175000
+P013,FleetCare Premium,Service Package,295000
+P014,SmartFleet Connect,Telematics,65000
+P015,SmartFleet Advanced,Telematics,125000
