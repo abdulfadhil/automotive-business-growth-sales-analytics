@@ -1,39 +1,52 @@
-# Validation
+﻿# Project Validation and Quality Checks
 
-This project was checked through Python tests, SQLite checks and a manual Power BI review.
+## Purpose
 
-## Python
+This document records the data validation, SQL analysis checks, and automated tests performed for the Automotive Business Growth and Sales Analytics project.
 
-The test suite checks:
+## What Was Validated
 
-- required source files
-- missing values
-- primary-key uniqueness
-- numeric validity
-- referential integrity
-- sale-to-opportunity consistency
-- customer-to-region consistency
-- revenue arithmetic
-- Power BI-ready data consistency
+The project includes checks for:
 
-Result: **10/10 tests passed**.
+- Required source files and missing values
+- Primary-key uniqueness and referential integrity
+- Valid numerical values and sales calculations
+- Consistency between sales, opportunities, customers, and regions
+- Consistency of Power BI-ready tables with source data
+- Coverage of the sales date range by the date dimension
+- SQL business-analysis queries and data-quality checks
 
-Run with:
+## Validation Results
+
+| Check | Result |
+|---|---|
+| Python test suite | 10 of 10 tests passed |
+| SQL data-quality checks | 10 checks passed with zero reported violations |
+| SQL business-analysis queries | 5 queries executed successfully |
+| SQL runner database | In-memory SQLite database |
+
+## Reproducing the Checks
+
+Run these commands from the repository root.
+
+Python tests:
 
 ```bash
 python -m pytest -q
 ```
 
-## SQL
+SQL analysis:
 
-The schema, data-quality queries and business-analysis queries were executed against the repository data using SQLite. The documented quality checks returned zero violations.
+```bash
+python scripts/run_sql_analysis.py
+```
 
-## Power BI
+The SQL runner loads the project CSV files into an in-memory database, applies the SQL schema, executes the analysis queries, and checks data quality without creating a persistent database file.
 
-The reviewed `.pbix` report is included in `dashboard/`. It contains three pages: Executive Snapshot, Pipeline, and Customers & Growth.
+## Data Integrity and Transparency
 
-The five core Power BI-ready tables match their corresponding source tables in `data/raw/`. The date dimension covers the full sales date range: `2025-01-15` to `2026-10-08` for sales, with `dim_date` covering `2025-01-01` to `2026-10-31`.
+The dataset is synthetic and intended for portfolio demonstration. The reported metrics describe this dataset; they are not actual company performance figures. Market-analysis values are scenario inputs, not independently verified market research.
 
-## Data boundary
+## Scope and Limitations
 
-The dataset is synthetic. Its results are not historical Asta Innovations results and no confidential company or customer information is included.
+The results above describe the checks that were executed. They establish that the tested data and SQL operations passed those checks; they do not, by themselves, establish that every business assumption or Power BI visual is correct.
