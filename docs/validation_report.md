@@ -1,4 +1,4 @@
-﻿# Project Validation and Quality Checks
+# Project Validation and Quality Checks
 
 ## Purpose
 

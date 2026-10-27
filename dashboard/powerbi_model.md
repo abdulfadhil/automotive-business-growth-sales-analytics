@@ -1,4 +1,4 @@
-﻿# Power BI Data Model
+# Power BI Data Model
 
 ## Purpose
 

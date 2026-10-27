@@ -216,7 +216,7 @@ Activate it in Windows PowerShell:
 .\.venv\Scripts\Activate.ps1
 ```
 
-If `requirements.txt` exists in the repository, install the listed dependencies:
+Install the required dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
@@ -241,7 +241,7 @@ Then run the Python tests and SQL analysis using the commands above.
 
 ## License
 
-Check whether the repository contains a `LICENSE` file before reusing or redistributing the project. Public visibility alone does not grant permission to reuse its contents.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for the terms.
 
 ---
 

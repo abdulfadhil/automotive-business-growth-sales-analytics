@@ -1,4 +1,4 @@
-﻿# Business Insights — Automotive Business Growth and Sales Analytics
+# Business Insights: Automotive Business Growth and Sales Analytics
 
 ## Data Context
 
