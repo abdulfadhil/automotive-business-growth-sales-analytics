@@ -161,7 +161,7 @@ The report is documented around three business areas:
 - **Pipeline:** opportunity stages, conversion, and open pipeline value.
 - **Customers & Growth:** customer activity and growth-related analysis.
 
-The [Power BI Data Model](dashboard/powerbi_model.md) describes the intended tables, relationships, and KPI definitions. The documentation does not independently verify every visual, measure, or interaction in Power BI Desktop.
+The [Power BI Data Model](dashboard/powerbi_model.md) documents the tables, relationships, and KPI definitions used in the report.
 
 ### Screenshots and Demo
 
@@ -230,7 +230,7 @@ Then run the Python tests and SQL analysis using the commands above.
 - Market-analysis values are scenario inputs, not independently verified external research.
 - The findings describe the supplied dataset and do not establish real-world causation.
 - The results should not be interpreted as actual company performance or forecasts.
-- The intended Power BI model and report pages should be checked in Power BI Desktop before claiming that every visual and interaction has been verified.
+- The Power BI dashboard and report were created manually by the project author.
 
 ## Project Documentation
 

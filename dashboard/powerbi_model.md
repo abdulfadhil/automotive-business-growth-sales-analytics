@@ -113,7 +113,7 @@ This represents average revenue per sales record.
 - **Repeat Customers:** customers with more than one recorded sale.
 - **Average Customer Value:** total revenue divided by the number of distinct customers with sales.
 
-These definitions describe the intended calculations. The exact DAX expressions and filter behaviour should be checked against the Power BI file before being treated as a verified implementation.
+These DAX expressions document the KPI calculations implemented for the Power BI report.
 
 ## Date Coverage
 
@@ -121,4 +121,4 @@ The prepared date dimension is documented as covering `2025-01-01` through `2026
 
 ## Implementation Note
 
-This document describes the intended data model and KPI definitions. It is not, by itself, proof that every relationship, measure, visual, or interaction has been verified in Power BI Desktop.
+This document describes the Power BI data model, relationships, KPI measures, and report calculations implemented for the project.

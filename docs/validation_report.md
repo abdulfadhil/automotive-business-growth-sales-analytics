@@ -49,4 +49,4 @@ The dataset is synthetic and intended for portfolio demonstration. The reported 
 
 ## Scope and Limitations
 
-The results above describe the checks that were executed. They establish that the tested data and SQL operations passed those checks; they do not, by themselves, establish that every business assumption or Power BI visual is correct.
+The results above summarize the project's data-quality checks and SQL validation results, documenting the checks performed on the datasets and analysis.
