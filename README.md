@@ -1,88 +1,77 @@
-# Automotive Business Growth and Sales Analytics
+# Automotive Sales and Business Analytics
 
-A business analytics portfolio project exploring sales performance, customer behaviour, product revenue, regional performance, and sales opportunities using Python, SQL, and Power BI.
-
-**Repository:** [automotive-business-growth-sales-analytics](https://github.com/abdulfadhil/automotive-business-growth-sales-analytics)
+A business analytics project exploring automotive sales, revenue, customer activity, product performance, and sales opportunities using Python, SQL, and Power BI.
 
 ## About the Project
 
-This portfolio project explores sales performance, customer activity, product revenue, regional results, and sales opportunities using Python, SQL, and Power BI. It brings together customer, product, sales, opportunity, sales representative, and synthetic market-segment data.
+This project was completed during a one-month internship at Asta Innovations in June 2024. It explores how business data can help explain sales performance, identify patterns, and present useful business insights.
 
-The project was inspired by business analytics and business development work handled during an internship at Asta Innovations in Chennai in June 2024. It uses synthetic data for demonstration and includes no confidential company or customer records. Its results do not represent actual Asta Innovations performance.
+The project brings together customer, product, sales, sales opportunity, sales representative, and market-segment datasets. It includes data validation, SQL analysis, Python-based KPI calculations, and a Power BI report.
 
-## Business Problem
+All datasets are synthetic and included in this repository for demonstration. The results do not represent actual Asta Innovations performance or confidential company records.
 
-Businesses need a clear view of revenue, regional performance, product contribution, customer activity, and potential revenue in the sales pipeline. Analysing these areas together helps identify patterns that deserve further investigation.
+## Problem Statement
 
-This project explores the following questions:
+Businesses need reliable information to understand sales performance, customer activity, product revenue, and potential revenue from sales opportunities. Before this information can support decisions, the data needs to be checked, analysed, and presented clearly.
 
-- Which regions contribute the most revenue?
-- Which products generate the most revenue?
-- How many sales opportunities become wins?
-- How much potential value remains in the open pipeline?
-- Which lead sources have higher conversion rates?
-- How many customers make repeat purchases?
+This project explores questions about regional revenue, product performance, opportunity conversion, open pipeline value, lead sources, and repeat customers.
 
-## Objectives
+## Solution
 
-- Understand the datasets and how their tables relate.
-- Check data quality and numerical consistency.
-- Analyse revenue, opportunities, and customer activity.
-- Prepare data for Power BI reporting.
-- Make the analysis reproducible and document its findings and limitations.
+The project follows a structured analytics workflow:
 
-## Tools and Technologies
+- **Python and Pandas** are used to inspect datasets, validate data, and calculate key metrics.
+- **SQL and SQLite** are used to query the data and analyse business performance.
+- **Data-quality checks** help identify invalid values and inconsistent relationships.
+- **Power BI** presents the prepared data through business reporting pages.
+- **Automated tests and documentation** help make the analysis easier to reproduce and review.
+
+Together, these steps turn the supplied datasets into business metrics and findings that are easier to understand.
+
+## Objectives and Features
+
+- Explore revenue by region and product.
+- Analyse sales opportunities, conversion rates, and open pipeline value.
+- Examine customer activity and repeat purchasing.
+- Validate data quality, keys, relationships, and numerical consistency.
+- Prepare structured datasets for Power BI.
+- Present key metrics and findings in a business intelligence report.
+- Provide repeatable analysis scripts, automated tests, and documentation.
+
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| Python | Data validation and analysis workflow |
+| Python | Data analysis, calculations, and validation |
 | Pandas | Working with structured datasets |
 | SQL | Business queries and data-quality checks |
-| SQLite | Executing SQL against an in-memory database |
-| Power BI | Business reporting and visual analysis |
-| pytest | Automated data-validation tests |
-| Git and GitHub | Version control and project sharing |
+| SQLite | Executing SQL analysis against the CSV data |
+| Power BI | Business reporting and dashboard visualisation |
+| Jupyter Notebook | Exploring and documenting the analysis |
+| pytest | Automated testing |
+| Git | Version control |
+| GitHub | Hosting and sharing the project |
 
-## Dataset Overview
+## Datasets
 
-The project contains six synthetic source datasets.
+The repository contains six synthetic datasets:
 
 | Dataset | Records | Purpose |
 |---|---:|---|
-| Customers | 500 | Customer details and segmentation |
-| Products | 15 | Product names, categories, and prices |
-| Sales representatives | 20 | Representative, region, and team information |
-| Opportunities | 2,000 | Lead sources, stages, status, and expected value |
-| Sales | 1,000 | Transactions, quantities, and revenue |
-| Market analysis | 5 | Synthetic market-segment scenario inputs |
+| Customers | 500 | Customer activity and purchasing analysis |
+| Products | 15 | Product-level revenue analysis |
+| Sales representatives | 20 | Sales representative information |
+| Opportunities | 2,000 | Opportunity stages, outcomes, and conversion |
+| Sales | 1,000 | Sales transactions and revenue |
+| Market analysis | 5 | Illustrative market-segment scenarios |
 
-See the [Data Dictionary](docs/data_dictionary.md) for column definitions, table descriptions, and relationships.
+The original CSV files are in `data/raw/`. Prepared datasets for Power BI are in `dashboard/powerbi_ready/`.
 
-## Methodology
-
-### 1. Understand the data
-
-Review the source tables, identify key columns, and understand how customers, products, representatives, opportunities, and sales relate to each other.
-
-### 2. Validate data quality
-
-Check missing values, primary-key uniqueness, numerical validity, referential integrity, sales consistency, and revenue calculations.
-
-### 3. Analyse business performance
-
-Use SQL to analyse revenue by region and product, opportunity conversion, open pipeline value by stage, and synthetic market-segment rankings.
-
-### 4. Prepare reporting data
-
-Organise the data into dimension and fact tables for customer, date, product, sales representative, sales, and opportunity analysis.
-
-### 5. Interpret the results
-
-Summarise the metrics and patterns, explain what they suggest, and distinguish observations from assumptions that require additional evidence.
+The datasets are provided with the project. They are not actual company records. The market-segment values are illustrative scenario inputs, not verified external market research.
 
 ## Key Results
 
-These figures describe the synthetic dataset.
+The analysis produces the following results from the supplied synthetic data:
 
 | Metric | Result |
 |---|---:|
@@ -99,144 +88,151 @@ These figures describe the synthetic dataset.
 
 ### Selected Findings
 
-- **Regional performance:** South contributes 27.33% of total revenue.
-- **Product performance:** EcoHaul Pro contributes 17.47% of total revenue.
-- **Lead-source performance:** Partner leads have a 25.47% conversion rate, the highest among the lead sources in the dataset.
-- **Customer behaviour:** 271 customers have recorded sales, and 218 are repeat customers.
+- The South region contributes 27.33% of total revenue.
+- EcoHaul Pro contributes 17.47% of total revenue.
+- The Partner lead source has the highest conversion rate in the dataset, at 25.47%.
+- Of the 500 customers, 271 have at least one recorded sale and 218 are repeat customers.
 
-These are descriptive findings from synthetic data, not actual company performance or verified market trends.
+These findings describe patterns in the synthetic dataset. They should not be treated as actual company performance, verified market trends, or forecasts.
 
-Read the [Business Insights](reports/business_insights.md) document for further interpretation.
+## Methodology
 
-## SQL Analysis
-
-The SQL analysis covers five business questions:
-
-1. Revenue by region.
-2. Revenue by product and category.
-3. Opportunity conversion rate.
-4. Open pipeline value by stage.
-5. Ranking of synthetic market segments.
-
-Run the analysis from the repository root:
-
-```bash
-python scripts/run_sql_analysis.py
-```
-
-The runner loads the CSV files into an in-memory SQLite database, applies the SQL schema, executes five business-analysis queries, and performs ten data-quality checks. It does not create a persistent database file or modify the source CSV files.
-
-## Data Validation
-
-The automated Python tests cover source files, missing values, primary-key uniqueness, numerical validity, referential integrity, sales consistency, revenue calculations, Power BI-ready tables, and date coverage.
-
-**Recorded Python test result: 10 of 10 tests passed.**
-
-The SQL runner also completed ten data-quality checks with zero reported violations.
-
-Run the tests from the repository root:
-
-```bash
-python -m pytest -q
-```
-
-See the [Validation Report](docs/validation_report.md) for the validation scope and results.
+1. **Load the data:** Read the source CSV datasets for analysis.
+2. **Validate data quality:** Check structure, keys, values, relationships, and numerical consistency.
+3. **Analyse business performance:** Use Python and SQL to calculate metrics and answer business questions.
+4. **Prepare reporting data:** Use the prepared datasets in `dashboard/powerbi_ready/`.
+5. **Present the results:** Explore the findings through the Power BI report.
+6. **Check reproducibility:** Run automated tests and SQL data-quality checks.
 
 ## Power BI Report
 
-The repository includes the Power BI report:
+The Power BI report covers three areas:
+
+- **Executive Snapshot:** An overview of key business metrics.
+- **Pipeline:** Opportunity stages, conversion, and open pipeline value.
+- **Customers & Growth:** Customer activity and growth-related metrics.
+
+The Power BI report was created manually in Power BI Desktop.
+
+Open the report in Power BI Desktop:
 
 [`dashboard/automotive-business-growth-sales-analytics.pbix`](dashboard/automotive-business-growth-sales-analytics.pbix)
 
-The report is documented around three business areas:
+### Screenshots
 
-- **Executive Snapshot:** business performance and KPIs.
-- **Pipeline:** opportunity stages, conversion, and open pipeline value.
-- **Customers & Growth:** customer activity and growth-related analysis.
-
-The [Power BI Data Model](dashboard/powerbi_model.md) documents the tables, relationships, and KPI definitions used in the report.
-
-### Screenshots and Demo
-
-The Power BI report contains three pages covering overall business performance, sales pipeline performance, and customer growth.
-
-#### 1. Executive Snapshot
+**Executive Snapshot**
 
 ![Executive Snapshot](screenshots/executive-snapshot.png)
 
-#### 2. Pipeline Analysis
+**Sales Pipeline**
 
-![Pipeline Analysis](screenshots/pipeline.png)
+![Sales Pipeline](screenshots/pipeline.png)
 
-#### 3. Customers & Growth
+**Customers and Growth**
 
 ![Customers and Growth](screenshots/customers-and-growth.png)
-
-*Note: The project uses synthetic data for demonstration and portfolio purposes.*
-
-## Repository Structure
-
-| Path | Purpose |
-|---|---|
-| `data/raw/` | Synthetic source datasets |
-| `python/` | Notebook-based analysis |
-| `sql/` | SQL schema and analytical queries |
-| `scripts/` | Reproducible SQL runner |
-| `tests/` | Automated data-quality tests |
-| `dashboard/` | Power BI report and model documentation |
-| `docs/` | Data dictionary and validation report |
-| `reports/` | Business insights and KPI summary |
-
-Refer to the repository tree for the complete file inventory.
 
 ## Getting Started
 
 ### Requirements
 
-- Python installed.
-- A local copy of the repository.
-- The project's required Python dependencies.
+- Python 3
+- Git
+- Power BI Desktop to open the `.pbix` report
 
-### Create a virtual environment
+### 1. Clone the repository
 
 ```bash
-python -m venv .venv
+git clone https://github.com/abdulfadhil/automotive-sales-business-analytics.git
+cd automotive-sales-business-analytics
 ```
 
-Activate it in Windows PowerShell:
+### 2. Create a virtual environment
+
+For Windows PowerShell:
 
 ```powershell
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-Install the required dependencies:
+### 3. Install dependencies
 
-```bash
+```powershell
 python -m pip install -r requirements.txt
 ```
 
-Then run the Python tests and SQL analysis using the commands above.
+### 4. Run the SQL analysis
 
-## Limitations and Transparency
+```powershell
+python scripts/run_sql_analysis.py
+```
 
-- All source records are synthetic.
-- Market-analysis values are scenario inputs, not independently verified external research.
-- The findings describe the supplied dataset and do not establish real-world causation.
-- The results should not be interpreted as actual company performance or forecasts.
-- The Power BI dashboard and report were created manually by the project author.
+The script loads the CSV datasets into an in-memory SQLite database, executes five business-analysis queries, and runs ten data-quality checks. It does not modify the source CSV files or create a persistent database.
+
+### 5. Run the Python tests
+
+```powershell
+python -m pytest -q
+```
+
+The recorded validation run passed all 10 tests. The SQL data-quality checks also reported zero violations in the recorded run. Run the commands above to verify the results in your environment.
+
+### 6. Explore the notebook
+
+Open `python/business_analysis.ipynb` in Jupyter Notebook or Visual Studio Code to review the data checks, KPI calculations, and analysis.
+
+### 7. Open the Power BI report
+
+Open `dashboard/automotive-business-growth-sales-analytics.pbix` in Power BI Desktop to explore the report.
+
+## Repository Structure
+
+```text
+automotive-sales-business-analytics/
+|-- dashboard/
+|   |-- automotive-business-growth-sales-analytics.pbix
+|   |-- powerbi_model.md
+|   `-- powerbi_ready/
+|-- data/
+|   `-- raw/
+|-- docs/
+|   |-- data_dictionary.md
+|   `-- validation_report.md
+|-- python/
+|   `-- business_analysis.ipynb
+|-- reports/
+|   `-- business_insights.md
+|-- screenshots/
+|-- scripts/
+|   `-- run_sql_analysis.py
+|-- sql/
+|   |-- business_analysis.sql
+|   |-- data_quality.sql
+|   `-- schema.sql
+|-- tests/
+|   `-- test_data_quality.py
+|-- requirements.txt
+|-- LICENSE
+`-- README.md
+```
 
 ## Project Documentation
 
-- [Data Dictionary](docs/data_dictionary.md)
-- [Validation Report](docs/validation_report.md)
-- [Business Insights](reports/business_insights.md)
-- [Power BI Data Model](dashboard/powerbi_model.md)
+- [Data Dictionary](docs/data_dictionary.md): Dataset descriptions, fields, keys, and relationships.
+- [Validation Report](docs/validation_report.md): Data-quality checks and recorded results.
+- [Power BI Data Model](dashboard/powerbi_model.md): Tables, relationships, and documented KPI calculations.
+- [Business Insights](reports/business_insights.md): Summary of findings and limitations.
+- [SQL Business Analysis](sql/business_analysis.sql): Queries used to analyse business performance.
+- [SQL Data Quality Checks](sql/data_quality.sql): SQL validation rules.
+- [Python Tests](tests/test_data_quality.py): Automated data-quality tests.
+
+## Limitations
+
+- The datasets are synthetic and do not represent actual company or customer records.
+- Market-segment values are illustrative inputs, not verified external research.
+- The findings demonstrate an analytics workflow and should not be interpreted as real-world business forecasts or performance claims.
 
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for the terms.
-
----
-
-**Project:** Automotive Business Growth and Sales Analytics
-**Repository:** [github.com/abdulfadhil/automotive-business-growth-sales-analytics](https://github.com/abdulfadhil/automotive-business-growth-sales-analytics)
