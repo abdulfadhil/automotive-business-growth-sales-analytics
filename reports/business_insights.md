@@ -41,15 +41,6 @@ The open pipeline is valued at ₹2,797,135,758. The SQL analysis groups this va
 
 Of the 500 customers in the dataset, 271 have at least one recorded sale and 218 are repeat customers. These figures provide a basis for exploring customer acquisition, retention, and repeat purchasing.
 
-## Business Questions This Analysis Helps Explore
-
-- Which regions contribute the most revenue?
-- Which products generate the most revenue?
-- How effectively are opportunities converting into wins?
-- How much potential value remains in the open pipeline?
-- Which lead sources have higher conversion rates?
-- How much revenue comes from existing and repeat customers?
-
 ## Interpretation and Limitations
 
 These findings describe patterns in the synthetic dataset. They can demonstrate how business analytics supports decision-making, but they should not be treated as verified market trends, forecasts, or actual company results.

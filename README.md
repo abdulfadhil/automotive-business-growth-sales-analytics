@@ -6,13 +6,9 @@ A business analytics portfolio project exploring sales performance, customer beh
 
 ## About the Project
 
-This project explores how business data can help explain sales performance, customer activity, product contribution, and sales opportunities. It brings together customer records, product information, sales transactions, opportunity data, sales representatives, and synthetic market-segment data.
+This portfolio project explores sales performance, customer activity, product revenue, regional results, and sales opportunities using Python, SQL, and Power BI. It brings together customer, product, sales, opportunity, sales representative, and synthetic market-segment data.
 
-The project was inspired by business analytics and business development work handled during an internship at Asta Innovations in Chennai in June 2024. It presents a portfolio case study using synthetic data.
-
-The aim is to demonstrate a practical analytics workflow: understanding structured data, validating its quality, analysing business questions with SQL, interpreting results, and preparing data for Power BI reporting.
-
-The source records are synthetic. The results do not represent actual Asta Innovations performance, and the project does not include confidential company or customer records.
+The project was inspired by business analytics and business development work handled during an internship at Asta Innovations in Chennai in June 2024. It uses synthetic data for demonstration and includes no confidential company or customer records. Its results do not represent actual Asta Innovations performance.
 
 ## Business Problem
 
@@ -29,14 +25,11 @@ This project explores the following questions:
 
 ## Objectives
 
-- Understand the source datasets and their relationships.
-- Validate data quality and numerical consistency.
-- Analyse revenue by region and product.
-- Calculate opportunity conversion and open pipeline value.
-- Explore customer activity and repeat purchasing.
-- Prepare structured data for Power BI.
-- Make the SQL analysis reproducible.
-- Document findings, assumptions, and limitations.
+- Understand the datasets and how their tables relate.
+- Check data quality and numerical consistency.
+- Analyse revenue, opportunities, and customer activity.
+- Prepare data for Power BI reporting.
+- Make the analysis reproducible and document its findings and limitations.
 
 ## Tools and Technologies
 

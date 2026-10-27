@@ -49,4 +49,4 @@ The dataset is synthetic and intended for portfolio demonstration. The reported 
 
 ## Scope and Limitations
 
-The results above summarize the project's data-quality checks and SQL validation results, documenting the checks performed on the datasets and analysis.
+These checks cover the validation rules and SQL queries listed in this report. They support the consistency of the supplied synthetic datasets and the reported analysis results; they do not establish real-world business performance.
